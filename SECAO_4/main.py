@@ -106,4 +106,48 @@
 
 ####################################################################################################################################
 
-# Atividade 26
+# # Atividade 27
+
+# for numero in range(5):
+#     print(numero + 1)
+
+# print("*******************")
+
+# for numero in range(1, 6):
+#     print(numero)
+
+# print("*******************")
+
+# for numero in range(1, 10, 2):
+#     print(numero)
+
+####################################################################################################################################
+
+# # Atividade 28
+# palavra = "Dollynho".lower()
+
+# for letra in palavra :
+#     print(f'{letra} esta dentro da palvra {palavra}')
+
+####################################################################################################################################
+
+# # Atividade 29
+# compraConfirmada = True
+# dadosCompra = "Compra no valor de R$12,50 e entrega confirmada"
+
+# for enviar in range(3):
+#     if compraConfirmada:
+#         print(dadosCompra)
+#         print("Detalhes enviados para o seu email")
+#         break
+#     else:
+#         print("Falha na compra")
+
+####################################################################################################################################
+
+# Atividade 30
+
+for numero1 in range(5):
+    print(f'Produto: {numero1}')
+    for numero2 in range(5):
+        print(f'Subitem do produto {numero1}: {numero2}')
