@@ -163,13 +163,92 @@
 
 ####################################################################################################################################
 
-# Atividade 32
+# # Atividade 32
 
-linhas = input("Digite a quantidade de linhas desejadas: ")
-colunas = input("Digite a quantidade de colunas desejadas: ")
-simbolo = '#'
+# linhas = input("Digite a quantidade de linhas desejadas: ")
+# colunas = input("Digite a quantidade de colunas desejadas: ")
+# simbolo = '#'
 
-for l in range(int(linhas)):
-    for c in range(int(colunas)):
-        print(simbolo, end="")
-    print("")
+# for l in range(int(linhas)):
+#     for c in range(int(colunas)):
+#         print(simbolo, end="")
+#     print("")
+
+####################################################################################################################################
+
+# # Atividade 33
+
+# valor = 100
+# dia = 0
+
+# while valor > 20:
+#     dia+=1
+#     print(f'No dia {dia} o produto vai ser vendido por: ')
+#     print(f'R${valor}')
+#     valor -= 5
+
+####################################################################################################################################
+
+# # Atividade 34
+
+# idade = 15
+
+# podeVotar = 'Voto permitido' if idade >= 16 else 'Voto não permitido!'
+
+# print(podeVotar)
+
+####################################################################################################################################
+
+# # Atividade 36
+
+# valor = int(input("Digite o valor do seu produto: R$"))
+
+# while valor > 20:
+#     print(f'O seu produto sera vendido por: R$ {valor * 1.1}')
+#     break
+
+####################################################################################################################################
+
+# # Atividade 39
+
+# def firstFunction():
+#     print("Essa é minha primeira funcao em python!!")
+
+# firstFunction()
+
+####################################################################################################################################
+
+# # Atividade 40
+
+# numero1 = int(input(f'Digite o primeiro numero: '))
+# numero2 = int(input(f'Digite o segundo numero: '))
+
+# def somaNumeros(num1, num2):
+#     return num1 + num2
+
+# resultado = somaNumeros(numero1, numero2)
+
+# print(resultado)
+
+####################################################################################################################################
+
+# # Atividade 41
+
+# def boasVindas(nome, quantidade = 6):
+#     print(f'Olá {nome}')
+#     print(f'Temos {str(quantidade)} garrafas em estoque')
+
+# boasVindas("Dolynho")
+
+
+####################################################################################################################################
+
+# Atividade 43
+
+def cliente1(nome):
+    print(f'Olá {nome}')
+
+    
+def cliente2(nome):
+    return f'Olá {nome}'
+
