@@ -145,9 +145,31 @@
 
 ####################################################################################################################################
 
-# Atividade 30
+# # Atividade 30
 
-for numero1 in range(5):
-    print(f'Produto: {numero1}')
-    for numero2 in range(5):
-        print(f'Subitem do produto {numero1}: {numero2}')
+# for numero1 in range(5):
+#     print(f'Produto: {numero1}')
+#     for numero2 in range(5):
+#         print(f'Subitem do produto {numero1}: {numero2}')
+        
+####################################################################################################################################
+
+# # Atividade 31
+
+# palavra = 'FANTASTICO'
+
+# for space in palavra:
+#     print(f'{space} ', end="" )
+
+####################################################################################################################################
+
+# Atividade 32
+
+linhas = input("Digite a quantidade de linhas desejadas: ")
+colunas = input("Digite a quantidade de colunas desejadas: ")
+simbolo = '#'
+
+for l in range(int(linhas)):
+    for c in range(int(colunas)):
+        print(simbolo, end="")
+    print("")
