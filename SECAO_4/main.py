@@ -243,12 +243,43 @@
 
 ####################################################################################################################################
 
-# Atividade 43
+# # Atividade 43
 
-def cliente1(nome):
-    print(f'Olá {nome}')
+# def cliente1(nome):
+#     print(f'Olá {nome}')
 
     
-def cliente2(nome):
-    return f'Olá {nome}'
+# def cliente2(nome):
+#     return f'Olá {nome}'
 
+
+####################################################################################################################################
+
+# # Atividade 44
+
+# def soma(*numeros):
+#     resultado = 0
+#     for numero in numeros:
+#         resultado += numero
+#     return resultado
+
+# resultado = soma(2,3,4,5,6)
+
+# print(resultado)
+
+# ####################################################################################################################################
+
+# # Atividade 45
+
+# def agencia(**carro):
+#     return carro
+
+# print(agencia(marca = "BMW", cor = "Branco", motor="2.0"))
+
+####################################################################################################################################
+
+# Atividade 46
+
+import math
+
+print(math.factorial(4))
