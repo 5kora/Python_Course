@@ -278,8 +278,20 @@
 
 ####################################################################################################################################
 
-# Atividade 46
+# # Atividade 46
 
-import math
+# import math
 
-print(math.factorial(4))
+# print(math.factorial(4))
+
+####################################################################################################################################
+
+# Atividade 47
+
+cidades = ["Rio de Janeiro", "Parana", "Sao Paulo"]
+
+cidades[0] = "Santa Catarina"
+
+cidades.append("Amazonas")
+cidades.remove("Rio de Janeiro")
+print(cidades)
