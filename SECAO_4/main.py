@@ -286,12 +286,160 @@
 
 ####################################################################################################################################
 
-# Atividade 47
+# # Atividade 47
 
-cidades = ["Rio de Janeiro", "Parana", "Sao Paulo"]
+# cidades = ["Rio de Janeiro", "Parana", "Sao Paulo"]
 
-cidades[0] = "Santa Catarina"
+# cidades[0] = "Santa Catarina"
 
-cidades.append("Amazonas")
-cidades.remove("Rio de Janeiro")
-print(cidades)
+# cidades.append("Amazonas")
+# cidades.remove("Parana")
+# print(cidades)
+
+####################################################################################################################################
+
+# # Atividade 50
+
+# numeros = [1, 2, 3, 4, 5]
+
+# letras = ["a", "b", "c"]
+
+# final = numeros + letras
+
+# numeros.extend(letras)
+
+# print(final)
+# print(numeros)
+
+# itens = [["item1","item2"],["item3","item4"]]
+
+# print(itens[0][1])
+
+####################################################################################################################################
+
+# # Atividade 51
+
+# produtos = ["arroz", "feijao", "laranja", "banana",1,2,3,4]
+
+# item1,item2,item3,*outros = produtos
+
+# print(item1)
+# print(item2)
+# print(item3)
+# print(outros)
+
+####################################################################################################################################
+
+# # Atividade 52
+
+# valores = [1,2,3,4,5]
+
+# for numero in valores:
+#     print(numero)
+
+    
+####################################################################################################################################
+
+# # Atividade 53
+
+# corDesejada = input("Digite a cor desejada: ").lower()
+
+# cores = ["amarelo", "verde", "azul","vermelho"]
+
+# if corDesejada in cores:
+#     print("Em estoque!")
+# else:
+#     print("Cor não disponivel em estoque!")
+
+####################################################################################################################################
+
+# # Atividade 54
+
+# cores = ["amarelo", "verde", "azul","vermelho"]
+# valores = [10, 20, 30, 40]
+
+# lista = list('comprar')
+
+# print(lista)
+
+# duasListas = zip(cores,valores)
+
+# print(list(duasListas))
+
+####################################################################################################################################
+
+# # Atividade 55
+
+# frutasUsuario = input("Digite o nome das frutas separados por virgula: ")
+
+# print(frutasUsuario.split(","))
+
+####################################################################################################################################
+
+# # Atividade 56
+
+# coresLista = ["amarelo", "verde", "azul","vermelho"]
+# coresTuple = ("amarelo", "verde", "azul","vermelho")
+
+# print(type(coresLista))
+# print(type(coresTuple))
+
+
+# coresLista.append("123") #OK
+# # coresTuple.append("123") #NOK
+
+
+####################################################################################################################################
+# from array import array
+
+# # Atividade 57
+
+# letras = ["a", "b", "c", "d"]
+
+# numerosInt = [1, 2, 3, 4]
+
+# numerosFloat = [1.1, 2.2, 3.3, 4.4]
+
+# print(letras)
+# print(numerosInt)
+# print(numerosFloat)
+
+# letras = array("u", ["a", "b", "c", "d"])
+# numerosInt = array("i", [1, 2, 3, 4])
+# numerosFloat = array("f", [1.1, 2.2, 3.3, 4.4])
+
+# print(letras)
+# print(numerosInt)
+# print(numerosFloat)
+
+####################################################################################################################################
+
+# # Atividade 58
+
+# list1 = [10, 20, 30, 40, 50]
+# list2 = [10, 20, 60, 70]
+
+# num1 = set(list1)
+# num2 = set(list2)
+
+# print(num1 | num2) # Union
+# print(num1 - num2) # Difference
+# print(num1 ^ num2) # Symmetric Difference
+# print(num1 & num2) # And
+
+# print(len(num1))
+# #print(num1[0]) # Index perdido
+
+####################################################################################################################################
+
+# Atividade 59
+
+list1 = set([1, 2, 3, 4, 5, 6])
+s1 = {1, 2, 3, 5, 6}
+s1.add(9)
+s1.update([11,12,13,14])
+s1.remove(9)
+s1.discard(90)
+
+print(list1)
+print(s1)
