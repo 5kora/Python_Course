@@ -623,18 +623,50 @@
 
 ####################################################################################################################################
 
-# Atividade 72
+# # Atividade 72
 
-from sys import getsizeof
+# from sys import getsizeof
 
-numeros = [x * 10 for x in range(1000)]
-print(type(numeros))
-print(numeros)
-print(getsizeof(numeros))
+# numeros = [x * 10 for x in range(1000)]
+# print(type(numeros))
+# print(numeros)
+# print(getsizeof(numeros))
 
-print("************************")
+# print("************************")
 
-numeros = (x * 10 for x in range(1000))
-print(type(numeros))
-print(list(numeros))
-print(getsizeof(numeros))
+# numeros = (x * 10 for x in range(1000))
+# print(type(numeros))
+# print(list(numeros))
+# print(getsizeof(numeros))
+
+####################################################################################################################################
+
+# # Atividade 74
+
+# try:
+#     letras = ['a', 'b', 'c']
+#     print(letras)
+#     print(letras[3])
+# except IndexError:
+#     print("Index não existe!")
+
+####################################################################################################################################
+
+# # Atividade 75
+
+# try:
+#     valor = int(input('Digite o valor do seu produto: '))
+#     print(valor)
+# except ValueError:
+#     print("Favor digitar um valor numérico!")
+# finally:
+#     print("codigo ok!")
+
+# # else:
+#     # print("Usuario digitou um numero!")
+
+# print("Mais código.....")
+
+####################################################################################################################################
+
+# Atividade 77
