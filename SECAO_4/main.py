@@ -470,18 +470,121 @@
 
 ####################################################################################################################################
 
-# Atividade 61
+# # Atividade 61
 
-aluno = {"nome" : "Ana", "idade" : 16, "notaFinal" : "A", "aprovação" : True}
+# aluno = {"nome" : "Ana", "idade" : 16, "notaFinal" : "A", "aprovação" : True}
 
-print(aluno)
-print(aluno["idade"])
+# print(aluno)
+# print(aluno["idade"])
 
-aluno["nome"] = "João"
-print(aluno)
+# aluno["nome"] = "João"
+# print(aluno)
 
-aluno.update({"nome" : "Zeca", "notaFinal" : "B"})
-print(aluno)
+# aluno.update({"nome" : "Zeca", "notaFinal" : "B"})
+# print(aluno)
 
-aluno.update({"endereco"})
-print(aluno)
+# aluno.update({"endereco" : "Rua B"})
+# print(aluno)
+
+# print(aluno.get('cpf', "Key inexistente"))
+
+# del aluno["endereco"]
+
+# print(aluno)
+
+####################################################################################################################################
+
+# # Atividade 62
+# aluno = {"nome" : "Ana", "idade" : 16, "notaFinal" : "A", "aprovação" : True}
+
+# for x in aluno.keys():
+#     print(x)
+
+# print("************************")
+
+# for x in aluno.values():
+#     print(x)
+
+# print("************************")
+
+# for x in aluno.items():
+#     print(x)
+
+# print("************************")
+    
+# for keys, values in aluno.items():
+#     print(f'[{keys},{values}]')
+
+####################################################################################################################################
+
+# # Atividade 63
+
+# aluno = {
+#     "nome" : "Ana",
+#     "idade" : 16,
+#     "notaFinal" : "A",
+#     "aprovação" : True,
+#     "materias" : ["ingles", "matematica", "programação"]
+#     }
+
+# print(aluno)
+# print(aluno.get("materias"))
+# print(len(aluno))
+
+####################################################################################################################################
+
+# # Atividade 65
+
+# somar10 = lambda x: x + 10
+
+# print(somar10(2))
+
+####################################################################################################################################
+
+# # Atividade 66
+
+# def somar(x):
+#     func2 = lambda x: x + 10
+#     return func2(x) * 4
+
+# print(somar(2))
+
+####################################################################################################################################
+
+# # Atividade 67
+
+# lista1 = [1, 2, 3, 4]
+
+# def multi(x):
+#     return x * 2
+
+# print(multi(2))
+
+# lista2 = map(multi, lista1)
+
+# print(list(lista2))
+
+####################################################################################################################################
+
+# # Atividade 68
+
+# lista1 = [1, 2, 3, 4]
+
+# # lista2 = map(lambda x : x * 2, lista1)
+
+# print(list(map(lambda x : x * 2, lista1)))
+
+####################################################################################################################################
+
+# Atividade 69
+
+valores = [10, 12, 34, 44, 57]
+
+def remover20(x):
+    return x > 20
+
+resultado = list(filter(remover20, valores))
+
+print(resultado)
+
+print(list(filter(lambda x: x > 20, valores)))
