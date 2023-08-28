@@ -576,15 +576,65 @@
 
 ####################################################################################################################################
 
-# Atividade 69
+# # Atividade 69
 
-valores = [10, 12, 34, 44, 57]
+# valores = [10, 12, 34, 44, 57]
 
-def remover20(x):
-    return x > 20
+# def remover20(x):
+#     return x > 20
 
-resultado = list(filter(remover20, valores))
+# resultado = list(filter(remover20, valores))
 
-print(resultado)
+# print(resultado)
 
-print(list(filter(lambda x: x > 20, valores)))
+# print(list(filter(lambda x: x > 20, valores)))
+
+####################################################################################################################################
+
+# # Atividade 70
+
+# frutas1 = ["abacate", "banana", "morango", "kiwi", "abacaxi"]
+# frutas2 = []
+
+# for item in frutas1:
+#     if 'b' in item:
+#         frutas2.append(item)
+
+# print(frutas2)
+
+# frutas3 = [item for item in frutas1 if 'n' in item]
+
+# print(frutas3)
+
+####################################################################################################################################
+
+# # Atividade 71
+
+# valores = []
+
+# for x in range(6):
+#     valores.append(x * 10)
+
+# print(valores)
+
+# valores2 = [x * 10 for x in range(6)]
+
+# print(valores)
+
+####################################################################################################################################
+
+# Atividade 72
+
+from sys import getsizeof
+
+numeros = [x * 10 for x in range(1000)]
+print(type(numeros))
+print(numeros)
+print(getsizeof(numeros))
+
+print("************************")
+
+numeros = (x * 10 for x in range(1000))
+print(type(numeros))
+print(list(numeros))
+print(getsizeof(numeros))
