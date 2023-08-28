@@ -432,14 +432,56 @@
 
 ####################################################################################################################################
 
-# Atividade 59
+# # Atividade 59
 
-list1 = set([1, 2, 3, 4, 5, 6])
-s1 = {1, 2, 3, 5, 6}
-s1.add(9)
-s1.update([11,12,13,14])
-s1.remove(9)
-s1.discard(90)
+# list1 = set([1, 2, 3, 4, 5, 6])
+# s1 = {1, 2, 3, 5, 6}
+# s1.add(9)
+# s1.update([11,12,13,14])
+# s1.remove(9)
+# s1.discard(90)
 
-print(list1)
-print(s1)
+# print(list1)
+# print(s1)
+
+####################################################################################################################################
+
+# # Atividade 60
+
+# set1 = {'a', 'b', 'c'}
+# set2 = {'a', 'd', 'e'}
+# set3 = {'c', 'd', 'f'}
+
+# set4 = set1.union(set2)
+
+# print(set4)
+
+# set5 = set1.difference(set3)
+
+# print(set5)
+
+# set6 = set1.intersection(set2)
+
+# print(set6)
+
+# set7 = set1.symmetric_difference(set3)
+
+# print(set7)
+
+####################################################################################################################################
+
+# Atividade 61
+
+aluno = {"nome" : "Ana", "idade" : 16, "notaFinal" : "A", "aprovação" : True}
+
+print(aluno)
+print(aluno["idade"])
+
+aluno["nome"] = "João"
+print(aluno)
+
+aluno.update({"nome" : "Zeca", "notaFinal" : "B"})
+print(aluno)
+
+aluno.update({"endereco"})
+print(aluno)
