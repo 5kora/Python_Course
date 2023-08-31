@@ -669,4 +669,85 @@
 
 ####################################################################################################################################
 
-# Atividade 77
+# # Atividade 78
+
+# class Funcionarios:
+#     nome = "Elena"
+#     sobrenome = "Cabral"
+#     dataNascimento = "15/07/1995"
+
+# usuario1 = Funcionarios()
+# print(usuario1.nome)
+
+####################################################################################################################################
+
+# # Atividade 79
+
+# # Criar classe
+# class Funcionarios:
+#     pass
+
+# # Criar objeto
+# usuario1 = Funcionarios()
+# usuario2 = Funcionarios()
+
+# #Criar os parametros
+# usuario1.nome = "Elena"
+# usuario1.sobrenome = "Cabral"
+# usuario1.dataNascimento = "12/07/1995"
+
+# usuario2.nome = "Giovana"
+# usuario2.sobrenome = "Oliva"
+# usuario2.dataNascimento = "05/09/1993"
+
+# # print
+# print(usuario1.nome)
+# print(usuario2.nome)
+
+####################################################################################################################################
+
+# # Atividade 80
+
+#  # Criar classe
+# class Funcionarios:
+#     def __init__(self, nome, sobrenome, dataNascimento):
+#         self.nome = nome
+#         self.sobrenome = sobrenome
+#         self.dataNascimento = dataNascimento
+
+# # Criar objeto
+# usuario1 = Funcionarios("Marcos", "Araujo", "17/02/1997")
+# usuario2 = Funcionarios("Dolly", "Guarana", "20/01/1987")
+
+# print(usuario1.nome)
+# print(usuario2.nome)
+
+
+####################################################################################################################################
+
+# Atividade 82
+
+ # Criar classe
+
+from datetime import datetime
+class Funcionarios:
+    def __init__(self, nome, sobrenome, anoNascimento):
+        self.nome = nome
+        self.sobrenome = sobrenome
+        self.anoNascimento = anoNascimento
+
+    def nomeSobrenome(self):
+        return self.nome + " " + self.sobrenome
+    
+    def calcIdade(self):
+        return datetime.now().year - int(self.anoNascimento) 
+
+# Criar objeto
+usuario1 = Funcionarios("Marcos", "Araujo", "1997")
+usuario2 = Funcionarios("Dolly", "Guarana", "1987")
+
+
+
+print(usuario1.nomeSobrenome())
+print(Funcionarios.nomeSobrenome(usuario2))
+print(Funcionarios.calcIdade(usuario2))
