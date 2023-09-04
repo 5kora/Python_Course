@@ -725,29 +725,69 @@
 
 ####################################################################################################################################
 
-# Atividade 82
+# # Atividade 82
 
- # Criar classe
+#  # Criar classe
 
-from datetime import datetime
-class Funcionarios:
-    def __init__(self, nome, sobrenome, anoNascimento):
-        self.nome = nome
-        self.sobrenome = sobrenome
-        self.anoNascimento = anoNascimento
+# from datetime import datetime
+# class Funcionarios:
+#     def __init__(self, nome, sobrenome, anoNascimento):
+#         self.nome = nome
+#         self.sobrenome = sobrenome
+#         self.anoNascimento = anoNascimento
 
-    def nomeSobrenome(self):
-        return self.nome + " " + self.sobrenome
+#     def nomeSobrenome(self):
+#         return self.nome + " " + self.sobrenome
     
-    def calcIdade(self):
-        return datetime.now().year - int(self.anoNascimento) 
+#     def calcIdade(self):
+#         return datetime.now().year - int(self.anoNascimento) 
 
-# Criar objeto
-usuario1 = Funcionarios("Marcos", "Araujo", "1997")
-usuario2 = Funcionarios("Dolly", "Guarana", "1987")
+# # Criar objeto
+# usuario1 = Funcionarios("Marcos", "Araujo", "1997")
+# usuario2 = Funcionarios("Dolly", "Guarana", "1987")
 
 
 
-print(usuario1.nomeSobrenome())
-print(Funcionarios.nomeSobrenome(usuario2))
-print(Funcionarios.calcIdade(usuario2))
+# print(usuario1.nomeSobrenome())
+# print(Funcionarios.nomeSobrenome(usuario2))
+# print(Funcionarios.calcIdade(usuario2))
+
+####################################################################################################################################
+
+# Atividade 83
+
+# Criacao do arquivo "funcoes.py"
+
+####################################################################################################################################
+
+# # Atividade 84
+# import funcoes
+
+# funcoes.somar()
+
+# # OU
+
+# # from funcoes import somar
+
+# # somar()
+
+####################################################################################################################################
+
+# # Atividade 85
+
+# from items.cadastro import cliente
+
+# cliente()
+
+
+####################################################################################################################################
+
+# Atividade 86
+
+from funcoes import findIndex
+
+list1 = ['a', 'b', 'c', 'd', 'e']
+
+index = findIndex(list1, 'e')
+
+print(index)
