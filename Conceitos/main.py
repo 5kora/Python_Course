@@ -446,27 +446,31 @@
 
 ####################################################################################################################################
 
-# # Atividade 60
+# Atividade 60
 
-# set1 = {'a', 'b', 'c'}
-# set2 = {'a', 'd', 'e'}
-# set3 = {'c', 'd', 'f'}
+set1 = {'a', 'b', 'c'}
+set2 = {'a', 'd', 'e'}
+set3 = {'c', 'd', 'f'}
 
-# set4 = set1.union(set2)
+print(f'Set1 {set1}')
+print(f'Set2 {set2}')
+print(f'Set3 {set3}')
 
-# print(set4)
+set4 = set1.union(set2)
+print('union example')
+print(set4)
 
-# set5 = set1.difference(set3)
+set5 = set1.difference(set3)
+print('difference example')
+print(set5)
 
-# print(set5)
+set6 = set1.intersection(set2)
+print('intersection example')
+print(set6)
 
-# set6 = set1.intersection(set2)
-
-# print(set6)
-
-# set7 = set1.symmetric_difference(set3)
-
-# print(set7)
+set7 = set1.symmetric_difference(set3)
+print('symmetric_difference example')
+print(set7)
 
 ####################################################################################################################################
 
@@ -782,12 +786,12 @@
 
 ####################################################################################################################################
 
-# Atividade 86
+# # Atividade 86
 
-from funcoes import findIndex
+# from funcoes import findIndex
 
-list1 = ['a', 'b', 'c', 'd', 'e']
+# list1 = ['a', 'b', 'c', 'd', 'e']
 
-index = findIndex(list1, 'e')
+# index = findIndex(list1, 'e')
 
-print(index)
+# print(index)
